@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram login</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: white;
+            font-family: "aktiv-grotesk", sans-serif;
+            text-align: center;
+        }
+
+        form {
+            max-width: 360px;
+            margin: 50px auto;
+            padding: 10px;
+            border-radius: 10px;
+            background: #ffffff;
+            border-color: black;
+        }
+
+        .set2 {
+            max-width: 360px;
+            margin: 30px auto;
+            padding: 10px;
+            border-radius: 3px;
+            width: 90%;
+        }
+
+        .text {
+            font: Proxima Nova;
+            text-align: center;
+        }
+
+        .inputs {
+            padding: 10px;
+            border: 1pxs solid lightgrey;
+            width: 100%;
+            border-radius: 5px;
+            margin: 10px auto;
+            background: #fafafa;
+        }
+
+        .btn {
+            width: 95%;
+            border-radius: 10px;
+            margin: 10px auto;
+            padding: 10px;
+            background: #4cb5f9;
+            color: #ffffff;
+            border: none;
+        }
+
+        .set {
+            background: white;
+            max-width: 360px;
+            margin: 50px auto;
+            padding: 10px;
+            border-right: none;
+            border-bottom: none;
+            border-left: none;
+        }
+
+        .legend {
+            text-align: center;
+
+        }
+
+        .link {
+            margin: 10px;
+            color: #385185;
+            border: none;
+            text-decoration: none;
+            text-align: center;
+            width: 100px;
+        }
+
+        .tlink {
+            margin: 10px;
+            color: #2a73cc;
+            border: none;
+            text-decoration: none;
+            text-align: center;
+            width: 100px;
+            
+
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <h1 class="text">instagram</h1>
+            <input class="inputs" placeholder="Phone number,username,or email">
+            <input class="inputs" placeholder="Password">
+            <button class="btn">Log In</button>
+            <fieldset class="set">
+                <legend class="legend">OR</legend>
+                <a class="link" href="https://www.instagram.com/accounts/login/?hl=en">Log in with Facebook</a><br><br>
+                <a class="tlink" href="https://www.instagram.com/accounts/password/reset/?hl=en">Forgot password?</a>
+            </fieldset>
+        </fieldset>
+    </form>
+    <fieldset class="set2">
+        <h5> Don't have an account?</h5>
+        <a class="link3" href="https://www.instagram.com/accounts/emailsignup/?hl=en">Sign up</a>
+    </fieldset>
+
+</body>
+
+</html>

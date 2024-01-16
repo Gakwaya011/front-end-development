@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "aktiv-grotesk", sans-serif;
+            color: #0d2340;
+            background: #edefef;
+        }
+
+        .myForm {
+            background: #ffffff;
+            max-width: 360px;
+            margin: 50px auto;
+            padding: 10px;
+            border-radius: 10px;
+
+        }
+
+        .inputs {
+            padding: 10px;
+            border: 1pxs solid lightgrey;
+            width: 100%;
+            border-radius: 5px;
+            margin: 10px auto;
+
+
+
+        }
+
+        fieldset {
+            background: white;
+            max-width: 360px;
+            margin: 50px auto;
+            padding: 10px;
+            border-right: none;
+            border-bottom: none;
+            border-left: none;
+
+        }
+
+        .link {
+            margin: 0px;
+            color: #2a73cc;
+            border: none;
+            text-decoration: none;
+            float: right;
+
+
+        }
+
+        .btn1 {
+            background: #2a73cc;
+            width: 100%;
+            border: 1px;
+            margin: 10px auto;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 2px;
+        }
+
+        .btn2 {
+            background: #2a73cc;
+            width: 100%;
+            border: none;
+            margin: 10px auto;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 2px;
+        }
+
+        .legend {
+            text-align: center;
+        }
+
+        .text {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <form class="myForm">
+        <button class="btn1">Log in with African Leadership University</button>
+        <fieldset>
+            <legend class="legend">or</legend>
+            <label>Email</label>
+
+            <input class="inputs" type="email" placeholder="Email">
+            <label>PASSWORD</label>
+            <input class="inputs" type="password" placeholder="password">
+            <a href="https://www.coursera.org/learn/glasscock/home/week/4" class="link">Forgot Password?</a>
+            <button class="btn2">Log In</button>
+            <h6>This site is protected by reCAPTCHA Enterprise and the Google
+                Privacy
+                Policy and Terms of Service apply
+            </h6>
+
+            <h6>having trouble logging in?</h6>
+
+
+
+    </form>
+    </fieldset>
+
+
+</body>
+
+
+
+
+</html>

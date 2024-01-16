@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook login</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f0f2f5;
+            font-family: Helvetica, Arial, sans-serif;
+            text-align: center;
+        }
+
+        form {
+            margin: 50px auto;
+            padding: 10px auto;
+            background: #ffffff;
+            max-width: 370px;
+            border-radius: 10px;
+        }
+
+        .inputs {
+            padding: 10px;
+            margin: 10px auto;
+            width: 95%;
+            border-radius: 5px;
+            border-color: #6d6a6a0e;
+
+        }
+
+        .btn {
+            width: 95%;
+            border-radius: 5px;
+            margin: 10px auto;
+            padding: 10px;
+            background: #1877f2;
+            color: #ffffff;
+            border: none;
+        }
+
+        .link {
+            color: #1877f2;
+            margin: 10px auto;
+            padding: 10px;
+            float: center;
+            text-decoration: none;
+
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+
+        .set {
+            border-left: none;
+            border-bottom: none;
+            border-right: none;
+            margin: 20px auto;
+            padding: 10px;
+            max-width: 360px;
+            width: 95%;
+            border-color: #6d6a6a0e;
+        }
+
+        .btn2 {
+            width: 50%;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background: #42b72a;
+            color: #f0f2f5;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <input class="inputs" placeholder="Email or phone number">
+        <input class="inputs" placeholder="Password">
+        <button class="btn">Log In</button>
+        <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0"
+            class="link">Forgot password?</a>
+        <fieldset class="set">
+            <button class="btn2">Create new account</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
