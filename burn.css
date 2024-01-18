@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text: size 9px;
+
+}
+
+
+body {
+    background: whitesmoke;
+    font-family: sans-serif;
+
+}
+
+form {
+    background: #ffffff;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 50px auto;
+    max-width: 360px;
+}
+
+.inputs {
+    width: 95%;
+    margin: 12px 10px;
+    padding: 10px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.btn {
+    width: 95%;
+    border-radius: 15px;
+    padding: 7px;
+    margin: 18px;
+    display: block;
+    background: #027cb7;
+    border: none;
+
+}
+
+.link {
+    color: #1877f2;
+    margin: 10px auto;
+    padding: 10px;
+    float: center;
+    text-decoration: none;
+    float: right;
+}
+
+nav {
+    background: #ffdea9;
+    padding: 12px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: black;
+    padding: 12px;
+
+}
+
+.box {
+    height: fit-content;
+    padding: 12x;
+    color: black;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 360px auto;
+    margin: 15px;
+    border: 0;
+    margin: 70px 100px auto;
+    gap: 10px;
+
+
+}
+
+.box.one {
+    flex: 6;
+    margin-top: 50px;
+
+}
+
+.box.two {
+    flex: 3;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 16px;
+
+}
+
+main {
+    background: white;
+    display: flex;
+    margin-bottom: 0;
+
+}
+
+.Data {
+    width: 100%;
+
+
+
+
+    .box.one.time {
+        flex: 4;
+        background: white;
+        flex-wrap: wrap;
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        width: 95%;
+    }
